@@ -1,0 +1,545 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/front"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/yellow"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignTop="@+id/front"
+            android:layout_weight="1">
+
+
+
+            <LinearLayout
+                android:id="@+id/operation2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="10dp"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+
+
+                <ToggleButton
+                    android:id="@+id/loop"
+                    android:layout_marginTop="75dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="65dp"
+                    android:layout_height="65dp"
+                    android:background="@drawable/repeat"
+                    android:checked="false"
+                    android:soundEffectsEnabled="false" />
+
+
+                <TextView
+                    android:id="@+id/textview"
+                    android:layout_width="200dp"
+                    android:layout_height="150dp"
+                    android:layout_marginLeft="50dp"
+                    android:background="@drawable/textview_border"
+                    android:textSize="15dp"
+                    android:textStyle="normal" />
+
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/keyboard1"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_key1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="fill"
+                android:layout_weight="1"
+                android:background="@drawable/cymbal1"
+                android:soundEffectsEnabled="false" />
+
+
+            <Button
+                android:id="@+id/btn_key2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="fill"
+                android:layout_weight="1"
+                android:background="@drawable/cymbal2"
+                android:soundEffectsEnabled="false" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/controlboard1"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <RadioGroup
+                android:id="@+id/control1"
+                android:layout_width="200dp"
+                android:layout_height="30dp"
+                android:orientation="horizontal"
+                android:gravity="center">
+
+                <RadioButton
+                    android:id="@+id/speed1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:checked="false"
+                    android:gravity="center"
+                    android:text="0.5"
+                    android:soundEffectsEnabled="false"/>
+
+                <RadioButton
+                    android:id="@+id/speed2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:checked="false"
+                    android:text="1.0"
+                    android:soundEffectsEnabled="false"/>
+
+                <RadioButton
+                    android:id="@+id/speed3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:checked="true"
+                    android:soundEffectsEnabled="false"
+                    android:text="1.5" />
+            </RadioGroup>
+
+
+            <RadioGroup
+                android:id="@+id/control2"
+                android:layout_width="200dp"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:gravity="center">
+
+                <RadioButton
+                    android:id="@+id/speed4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:checked="false"
+                    android:gravity="center"
+                    android:text="0.5"
+                    android:soundEffectsEnabled="false"/>
+
+                <RadioButton
+                    android:id="@+id/speed5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:checked="false"
+                    android:text="1.0"
+                    android:soundEffectsEnabled="false"/>
+
+                <RadioButton
+                    android:id="@+id/speed6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:checked="true"
+                    android:text="1.5"
+                    android:soundEffectsEnabled="false"/>
+            </RadioGroup>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/controlboard2"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/volume1"
+                android:layout_width="200dp"
+                android:layout_height="30dp"
+                android:orientation="horizontal"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/plus1"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/plus"
+                    android:soundEffectsEnabled="false" />
+
+                <Button
+                    android:id="@+id/minus1"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="30dp"
+                    android:background="@drawable/minus"
+                    android:soundEffectsEnabled="false" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/volume2"
+                android:layout_width="200dp"
+                android:layout_height="30dp"
+                android:orientation="horizontal"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/plus2"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/plus"
+                    android:soundEffectsEnabled="false" />
+
+                <Button
+                    android:id="@+id/minus2"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="30dp"
+                    android:background="@drawable/minus"
+                    android:soundEffectsEnabled="false" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/keyboard2"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_key3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="fill"
+                android:layout_weight="1"
+                android:background="@drawable/drum"
+                android:soundEffectsEnabled="false" />
+
+
+            <Button
+                android:id="@+id/btn_key4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="fill"
+                android:layout_weight="1"
+                android:background="@drawable/bassdrum"
+                android:soundEffectsEnabled="false" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/controlboard3"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <RadioGroup
+                android:id="@+id/control3"
+                android:layout_width="200dp"
+                android:layout_height="30dp"
+                android:orientation="horizontal"
+                android:gravity="center">
+
+                <RadioButton
+                    android:id="@+id/speed7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:checked="false"
+                    android:gravity="center"
+                    android:text="0.5"
+                    android:soundEffectsEnabled="false"/>
+
+                <RadioButton
+                    android:id="@+id/speed8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:checked="false"
+                    android:text="1.0"
+                    android:soundEffectsEnabled="false"/>
+
+                <RadioButton
+                    android:id="@+id/speed9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:checked="true"
+                    android:soundEffectsEnabled="false"
+                    android:text="1.5" />
+            </RadioGroup>
+
+
+            <RadioGroup
+                android:id="@+id/control4"
+                android:layout_width="200dp"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:gravity="center">
+
+                <RadioButton
+                    android:id="@+id/speed10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:checked="false"
+                    android:gravity="center"
+                    android:text="0.5"
+                    android:soundEffectsEnabled="false"/>
+
+                <RadioButton
+                    android:id="@+id/speed11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:checked="false"
+                    android:text="1.0"
+                    android:soundEffectsEnabled="false"/>
+
+                <RadioButton
+                    android:id="@+id/speed12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:checked="true"
+                    android:text="1.5"
+                    android:soundEffectsEnabled="false"/>
+            </RadioGroup>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/controlboard4"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/volume3"
+                android:layout_width="200dp"
+                android:layout_height="30dp"
+                android:orientation="horizontal"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/plus3"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/plus"
+                    android:soundEffectsEnabled="false" />
+
+                <Button
+                    android:id="@+id/minus3"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="30dp"
+                    android:background="@drawable/minus"
+                    android:soundEffectsEnabled="false" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/volume4"
+                android:layout_width="200dp"
+                android:layout_height="30dp"
+                android:orientation="horizontal"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/plus4"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/plus"
+                    android:soundEffectsEnabled="false" />
+
+                <Button
+                    android:id="@+id/minus4"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="30dp"
+                    android:background="@drawable/minus"
+                    android:soundEffectsEnabled="false" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/keyboard3"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_key5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="fill"
+                android:layout_weight="1"
+                android:background="@drawable/drumsticks"
+                android:soundEffectsEnabled="false" />
+
+
+            <Button
+                android:id="@+id/btn_key6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="fill"
+                android:layout_weight="1"
+                android:background="@drawable/drumside"
+                android:soundEffectsEnabled="false" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/controlboard5"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <RadioGroup
+                android:id="@+id/control5"
+                android:layout_width="200dp"
+                android:layout_height="30dp"
+                android:orientation="horizontal"
+                android:gravity="center">
+
+                <RadioButton
+                    android:id="@+id/speed13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:checked="false"
+                    android:gravity="center"
+                    android:text="0.5"
+                    android:soundEffectsEnabled="false"/>
+
+                <RadioButton
+                    android:id="@+id/speed14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:checked="false"
+                    android:text="1.0"
+                    android:soundEffectsEnabled="false"/>
+
+                <RadioButton
+                    android:id="@+id/speed15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:checked="true"
+                    android:soundEffectsEnabled="false"
+                    android:text="1.5" />
+            </RadioGroup>
+
+
+            <RadioGroup
+                android:id="@+id/control6"
+                android:layout_width="200dp"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:gravity="center">
+
+                <RadioButton
+                    android:id="@+id/speed16"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:checked="false"
+                    android:gravity="center"
+                    android:text="0.5"
+                    android:soundEffectsEnabled="false"/>
+
+                <RadioButton
+                    android:id="@+id/speed17"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:checked="false"
+                    android:text="1.0"
+                    android:soundEffectsEnabled="false"/>
+
+                <RadioButton
+                    android:id="@+id/speed18"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:checked="true"
+                    android:text="1.5"
+                    android:soundEffectsEnabled="false"/>
+            </RadioGroup>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/controlboard6"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/volume5"
+                android:layout_width="200dp"
+                android:layout_height="30dp"
+                android:orientation="horizontal"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/plus5"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/plus"
+                    android:soundEffectsEnabled="false" />
+
+                <Button
+                    android:id="@+id/minus5"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="30dp"
+                    android:background="@drawable/minus"
+                    android:soundEffectsEnabled="false" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/volume6"
+                android:layout_width="200dp"
+                android:layout_height="30dp"
+                android:orientation="horizontal"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/plus6"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/plus"
+                    android:soundEffectsEnabled="false" />
+
+                <Button
+                    android:id="@+id/minus6"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="30dp"
+                    android:background="@drawable/minus"
+                    android:soundEffectsEnabled="false" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>
