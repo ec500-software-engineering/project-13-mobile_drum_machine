@@ -50,7 +50,7 @@
                     android:layout_height="150dp"
                     android:layout_marginLeft="50dp"
                     android:background="@drawable/textview_border"
-                    android:textSize="15dp"
+                    android:textSize="10dp"
                     android:textStyle="normal" />
 
 
@@ -104,7 +104,7 @@
                     android:id="@+id/speed1"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    android:checked="false"
+                    android:checked="true"
                     android:gravity="center"
                     android:text="0.5"
                     android:soundEffectsEnabled="false"/>
@@ -121,7 +121,7 @@
                     android:id="@+id/speed3"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    android:checked="true"
+                    android:checked="false"
                     android:soundEffectsEnabled="false"
                     android:text="1.5" />
             </RadioGroup>
@@ -138,7 +138,7 @@
                     android:id="@+id/speed4"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    android:checked="false"
+                    android:checked="true"
                     android:gravity="center"
                     android:text="0.5"
                     android:soundEffectsEnabled="false"/>
@@ -155,7 +155,7 @@
                     android:id="@+id/speed6"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    android:checked="true"
+                    android:checked="false"
                     android:text="1.5"
                     android:soundEffectsEnabled="false"/>
             </RadioGroup>
@@ -265,7 +265,7 @@
                     android:id="@+id/speed7"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    android:checked="false"
+                    android:checked="true"
                     android:gravity="center"
                     android:text="0.5"
                     android:soundEffectsEnabled="false"/>
@@ -282,7 +282,7 @@
                     android:id="@+id/speed9"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    android:checked="true"
+                    android:checked="false"
                     android:soundEffectsEnabled="false"
                     android:text="1.5" />
             </RadioGroup>
@@ -299,7 +299,7 @@
                     android:id="@+id/speed10"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    android:checked="false"
+                    android:checked="true"
                     android:gravity="center"
                     android:text="0.5"
                     android:soundEffectsEnabled="false"/>
@@ -316,7 +316,7 @@
                     android:id="@+id/speed12"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    android:checked="true"
+                    android:checked="false"
                     android:text="1.5"
                     android:soundEffectsEnabled="false"/>
             </RadioGroup>
@@ -426,7 +426,7 @@
                     android:id="@+id/speed13"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    android:checked="false"
+                    android:checked="true"
                     android:gravity="center"
                     android:text="0.5"
                     android:soundEffectsEnabled="false"/>
@@ -443,7 +443,7 @@
                     android:id="@+id/speed15"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    android:checked="true"
+                    android:checked="false"
                     android:soundEffectsEnabled="false"
                     android:text="1.5" />
             </RadioGroup>
@@ -460,7 +460,7 @@
                     android:id="@+id/speed16"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    android:checked="false"
+                    android:checked="true"
                     android:gravity="center"
                     android:text="0.5"
                     android:soundEffectsEnabled="false"/>
@@ -477,7 +477,7 @@
                     android:id="@+id/speed18"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    android:checked="true"
+                    android:checked="false"
                     android:text="1.5"
                     android:soundEffectsEnabled="false"/>
             </RadioGroup>
