@@ -29,5 +29,4 @@ For the frontend of our app, it is composed of 6 different sound effect botton, 
 `volume bottons:` under each beat botton, there will be a set of volume bottons to change the volume of the beat.    
 `loop botton:` This is the master switch. Switch on to start adding your own beats.  
 'display screen:' the screen will shows the beats that are being used now.  
-![frontend image](https://github.com/ec500-software-engineering/project-13-mobile_drum_machine/blob/master/Frontend.png)
-<img src="https://github.com/ec500-software-engineering/project-13-mobile_drum_machine/blob/master/Frontend.png" width=400/>
+<div align=center><img src="https://github.com/ec500-software-engineering/project-13-mobile_drum_machine/blob/master/Frontend.png" width=400/></div>
