@@ -22,3 +22,11 @@ Language: JavaScript and React
 APIs: Java Sound API  
 icon source:
 https://www.flaticon.com
+## Frontend
+For the frontend of our app, it is composed of 6 different sound effect botton, frequency choice of each beat, volume bottons, a loop botton and a display screen to show which beats are being used now.  
+`sound effect botton:` we use different patterns to represent different sound effect  
+`frequency choice:` This is a Radiogroup which allows users to choose the frequency of 0.5,1.0 or 1.5  
+`volume bottons:` under each beat botton, there will be a set of volume bottons to change the volume of the beat.    
+`loop botton:` This is the master switch. Switch on to start adding your own beats.  
+'display screen:' the screen will shows the beats that are being used now.  
+![frontend image](https://github.com/ec500-software-engineering/project-13-mobile_drum_machine/blob/master/Frontend.png)
