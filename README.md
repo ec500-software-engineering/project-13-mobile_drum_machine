@@ -31,4 +31,4 @@ For the frontend of our app, it is composed of 6 different sound effect botton, 
 'display screen:' the screen will shows the beats that are being used now.  
 <div align=center><img src="https://github.com/ec500-software-engineering/project-13-mobile_drum_machine/blob/master/Frontend.png" width=400/></div>
 ## Run on real phone
-To run drum machine on a real Android phone, put app-release.apk in folder release in your phone and run it.
+To run drum machine on a real Android phone, get release/app-release.apk, put it in your phone and run it.
